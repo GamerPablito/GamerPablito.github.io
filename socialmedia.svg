@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="background-color:black">
+    <style>
+        image {width: 75px; height: 75px; cursor: pointer; transform-origin: center;}
+        text {font-family: 'Bahnschrift'; font-size: 48px; fill: white;}
+    </style>
+    <g>
+        <text x="280" y="265">Here is my</text>
+        <text x="255" y="330">Social Media!</text>
+        <animate attributeType="CSS" attributeName="opacity" values="1;0;1" dur="1" repeatCount="indefinite" />
+    </g>
+    <svg width="100" height="100">
+        <image x="15" y="15" xlink:href="https://images.gamebanana.com/img/ico/sprays/4ea6f49dd2265.gif" onclick="window.open('https://gamebanana.com/members/1985800')">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
+        </image>
+        <animate attributeName="x" attributeType="XML" values="350;700;350;0;350" dur="3" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="0;500;0" dur="7" repeatCount="indefinite" />
+    </svg>
+    <svg width="100" height="100">
+        <image x="15" y="15" xlink:href="https://s.gjcdn.net/assets/82a38961.png" onclick="window.open('https://gamejolt.com/@GamerPablito')">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
+        </image>
+        <animate attributeName="x" attributeType="XML" values="350;700;350;0;350" dur="7" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="0;500;0" dur="3" repeatCount="indefinite" />
+    </svg>
+    <svg width="100" height="100">
+        <image x="15" y="15" xlink:href="https://cdn-icons-png.flaticon.com/512/124/124021.png" onclick="window.open('https://twitter.com/GamerPablito1')">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
+        </image>
+        <animate attributeName="x" attributeType="XML" values="350;700;350;0;350" dur="4" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="0;500;0" dur="6" repeatCount="indefinite" />
+    </svg>
+    <svg width="100" height="100">
+        <image x="15" y="15" xlink:href="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" onclick="window.open('https://github.com/GamerPablito')">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
+        </image>
+        <animate attributeName="x" attributeType="XML" values="350;700;350;0;350" dur="6" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="0;500;0" dur="4" repeatCount="indefinite" />
+    </svg>
+</svg>

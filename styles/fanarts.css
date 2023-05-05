@@ -1,0 +1,32 @@
+* {
+    font-family: 'Bahnschrift';
+}
+
+h1 {
+    color: red;
+    font-size: 48px;
+}
+
+h2 {
+    color: deepskyblue;
+    font-size: 32px;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+section img {
+    height: 250px;
+    border: 3px dashed black;
+    margin-left: 1%;
+}
+
+section img:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+p {
+    font-size: 28px;
+}
