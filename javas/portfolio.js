@@ -1,6 +1,3 @@
-// Main Icon Implementation
-document.getElementById('pfp1').href = "https://pbs.twimg.com/media/FreRm5jXoAE4-pQ.jpg";
-
 // Portfolio Building
 /**
  * @typedef {Object} proyect - Just a type to parse portfolio correctly

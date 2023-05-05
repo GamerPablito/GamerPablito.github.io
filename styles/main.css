@@ -1,0 +1,21 @@
+* {
+    font-family: 'Bahnschrift';
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+}
+
+h2 {
+    color: deepskyblue;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+p {
+    font-size: 28px;
+}

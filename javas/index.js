@@ -1,9 +1,6 @@
 // Main Icon Implementation
 const pfpUrl = "https://pbs.twimg.com/media/FreRm5jXoAE4-pQ.jpg";
-var favicon = document.getElementById('pfp1');
 var mainIcon = document.getElementById('pfp2');
-
-favicon.href = pfpUrl;
 mainIcon.src = pfpUrl;
 mainIcon.width = mainIcon.height = 200;
 mainIcon.title = "PFP by: Mari_chan1401";

@@ -1,6 +1,3 @@
-// Main Icon Implementation
-document.getElementById('pfp1').href = "https://pbs.twimg.com/media/FreRm5jXoAE4-pQ.jpg";
-
 // Image processing
 var imgSection = document.getElementById('images');
 var authors = [

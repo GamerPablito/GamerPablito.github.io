@@ -1,24 +1,6 @@
-* {
-    font-family: 'Bahnschrift';
-}
-
-h1 {
-    color: red;
-    font-size: 60px;
-}
-
-h2 {
-    color: deepskyblue;
-    font-size: 40px;
-}
-
 h2#main {
     font-size: 50px;
     margin-left: 16%;
-}
-
-hr {
-    border: 1px solid gray;
 }
 
 table {
@@ -45,8 +27,4 @@ table tr td img:hover {
 
 table tr td:first-child {
     width: 20%;
-}
-
-p {
-    font-size: 28px;
 }
