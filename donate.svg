@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="150">
+    <style>
+        svg svg:hover {cursor: pointer;}
+        text {font-family: 'Bahnschrift'; fill: white;}
+    </style>
+    <svg width="400" height="70"  onclick="https://ko-fi.com/J3J0BB99B">
+        <rect width="400" height="70" rx="10" ry="10" fill="darksalmon"/>
+        <text x="15" y="45" font-size="32px">Support me on Ko-Fi</text>
+        <image x="320" y="-5" width="80" height="80" xlink:href="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e111774d3a2f67c827cd25_Frame%205.png"/>
+    </svg>
+    <svg width="400" height="70" y="80" onclick="https://paypal.me/gamerpablito">
+        <rect width="400" height="70" rx="10" ry="10" fill="darkblue"/>
+        <text x="15" y="45" font-size="30px">Support me on PayPal</text>
+        <image x="335" y="15" width="45" height="45" xlink:href="https://seeklogo.com/images/P/paypal-logo-481A2E654B-seeklogo.com.png"/>
+    </svg>
+</svg>
