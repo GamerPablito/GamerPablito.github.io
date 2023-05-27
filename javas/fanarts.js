@@ -14,7 +14,10 @@ var authors = [
     'Officer_Sam',
     'Vaderlings',
     'MembsterBunny',
-    'Waffle_Modder'
+    'Waffle_Modder',
+    'WhoCigs_',
+    'Mari',
+    'SweetieLandtica'
 ];
 var authorMedia = [
     'https://twitter.com/GalaxyGamerGi10',
@@ -30,7 +33,10 @@ var authorMedia = [
     'https://twitter.com/SamtiktokNewac1',
     'https://twitter.com/vaderlings',
     'https://twitter.com/MemsterBunny',
-    'https://twitter.com/Waffle_Modder'
+    'https://twitter.com/Waffle_Modder',
+    'https://twitter.com/WhoCigs_',
+    'https://twitter.com/Mari_Chan1401',
+    'https://twitter.com/SweetieLandtica'
 ];
 
 for (var i = 0; i < authorMedia.length; i++) {

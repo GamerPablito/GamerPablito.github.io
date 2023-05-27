@@ -9,10 +9,10 @@
 /** @type {proyect[]} */
 var projects = [
     {
-        title: "GameJolt Client for FNF",
+        title: "GameJolt Client for HaxeFlixel",
         descripts: [
             'Inspired in TentaRJ\'s adaptation, I decided to make an adaptation with similar functionality but made from zero and with original stuff from me',
-            'I wanted to make this in order to help those users whose acknowledge about coding is kinda low and want to implement something like this in their mods'
+            'I wanted to make this in order to help those users whose acknowledge about coding is kinda low and want to implement something like this in their mods or HaxeFlixel games'
         ],
         link: "https://github.com/GamerPablito/HaxeGJClient"
     }

@@ -36,7 +36,6 @@ svg text {
     fill: white;
 }
 
-p,
-footer {
+p {
     font-size: 20px;
 }
