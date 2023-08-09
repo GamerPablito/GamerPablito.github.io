@@ -1,51 +1,94 @@
 // Image processing
 var imgSection = document.getElementById('images');
+
+/**
+ * @typedef {Object} Authors
+ * @prop {string} name
+ * @prop {string} link
+ */
+/** @type {Authors[]} */
 var authors = [
-    'GalaxyGamerGirl',
-    'Twiszster',
-    'nookoshi',
-    'sprinklepuff370',
-    'ElFadicVT',
-    'magicbeautyani',
-    'Ruvbon',
-    'Bloo',
-    'Sylix (RgGaming)',
-    'MemsterBunny',
-    'Officer_Sam',
-    'Vaderlings',
-    'MembsterBunny',
-    'Waffle_Modder',
-    'WhoCigs_',
-    'Mari',
-    'SweetieLandtica'
-];
-var authorMedia = [
-    'https://twitter.com/GalaxyGamerGi10',
-    'https://twitter.com/skodnep',
-    'https://twitter.com/nookoshi',
-    'https://twitter.com/sprinklepuff370',
-    'https://twitter.com/FadicVT',
-    'https://twitter.com/beautagicannie',
-    'https://twitter.com/hoothootbon',
-    'https://twitter.com/boolbler',
-    'https://twitter.com/RgMakesArt',
-    'https://twitter.com/MemsterBunny',
-    'https://twitter.com/SamtiktokNewac1',
-    'https://twitter.com/vaderlings',
-    'https://twitter.com/MemsterBunny',
-    'https://twitter.com/Waffle_Modder',
-    'https://twitter.com/WhoCigs_',
-    'https://twitter.com/Mari_Chan1401',
-    'https://twitter.com/SweetieLandtica'
+    {
+        name: 'GalaxyGamerGirl',
+        link: 'https://twitter.com/GalaxyGamerGi10'
+    },
+    {
+        name: 'Twiszster',
+        link: 'https://twitter.com/skodnep'
+    },
+    {
+        name: 'nookoshi',
+        link: 'https://twitter.com/nookoshi'
+    },
+    {
+        name: 'sprinklepuff370',
+        link: 'https://twitter.com/sprinklepuff370'
+    },
+    {
+        name: 'ElFadicVT',
+        link: 'https://twitter.com/FadicVT'
+    },
+    {
+        name: 'magicbeautyani',
+        link: 'https://twitter.com/beautagicannie'
+    },
+    {
+        name: 'Ruvbon',
+        link: 'https://twitter.com/hoothootbon'
+    },
+    {
+        name: 'Bloo',
+        link: 'https://twitter.com/boolbler'
+    },
+    {
+        name: 'Sylix (RgGaming)',
+        link: 'https://twitter.com/RgMakesArt'
+    },
+    {
+        name: 'MemsterBunny',
+        link: 'https://twitter.com/MemsterBunny'
+    },
+    {
+        name: 'Officer_Sam',
+        link: 'https://twitter.com/SamtiktokNewac1'
+    },
+    {
+        name: 'Vaderlings',
+        link: 'https://twitter.com/vaderlings'
+    },
+    {
+        name: 'MemsterBunny',
+        link: 'https://twitter.com/MemsterBunny'
+    },
+    {
+        name: 'Waffle_Modder',
+        link: 'https://twitter.com/Waffle_Modder'
+    },
+    {
+        name: 'WhoCigs_',
+        link: 'https://twitter.com/WhoCigs_'
+    },
+    {
+        name: 'Mari',
+        link: 'https://twitter.com/Mari_Chan1401'
+    },
+    {
+        name: 'SweetieLandtica',
+        link: 'https://twitter.com/SweetieLandtica'
+    },
+    {
+        name: 'Azuko',
+        link: 'https://www.fiverr.com/azuko0'
+    }
 ];
 
-for (var i = 0; i < authorMedia.length; i++) {
+for (var i = authors.length - 1; i>0; i--) {
     var newLink = document.createElement('a');
     var newImg = document.createElement('img');
 
-    newImg.title = "Made by: " + authors[i];
+    newImg.title = "Made by: " + authors[i].name;
     newImg.src = `fanarts/${i + 1}.png`;
-    newLink.href = authorMedia[i];
+    newLink.href = authors[i].link;
     newLink.appendChild(newImg);
     imgSection.appendChild(newLink);
 }

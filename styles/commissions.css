@@ -14,10 +14,15 @@ th {
     font-size: 36px;
 }
 
-td {
+td,ol li{
     font-size: 24px;
 }
 
 td strong {
     font-size: 28px;
+}
+
+ol {
+    margin-left: 25%;
+    margin-right: 25%;
 }

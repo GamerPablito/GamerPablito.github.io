@@ -7,8 +7,10 @@ mainIcon.title = "PFP by: Mari_chan1401";
 mainIcon.onclick = (ev) => window.open('https://twitter.com/GamerPablito1');
 
 // Creation of Main Buttons
-const buttonLinks = ['portfolio', 'commissions', 'fanarts'];
-var buttonNames = ['Portfolio', 'Commissions', 'Fanarts'];
+
+const buttonNames = ['Portfolio', 'Commissions', 'Fanarts'];
+var buttonLinks = [];
+for (var i = 0; i<buttonNames.length; i++) {buttonLinks.push(buttonNames[i].toLowerCase());}
 var buttonNav = document.getElementById('buttons');
 
 for (var i = 0; i < buttonLinks.length; i++) {

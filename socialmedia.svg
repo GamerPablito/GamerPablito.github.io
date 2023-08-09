@@ -36,4 +36,32 @@
         <animate attributeName="x" attributeType="XML" values="350;700;350;0;350" dur="6" repeatCount="indefinite" />
         <animate attributeName="y" attributeType="XML" values="0;500;0" dur="4" repeatCount="indefinite" />
     </svg>
+    <svg width="100" height="100">
+        <image x="15" y="15" xlink:href="https://art.ngfiles.com/images/5000/5090_jakbaronking_newgrounds-logo-final-hw.jpg" onclick="window.open('https://gamerpablito.newgrounds.com')">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
+        </image>
+        <animate attributeName="x" attributeType="XML" values="350;0;350;700;350" dur="3" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="500;0;500" dur="7" repeatCount="indefinite" />
+    </svg>
+    <svg width="100" height="100">
+        <image x="15" y="15" xlink:href="https://cdn.freebiesupply.com/images/large/2x/steam-logo-black-transparent.png" onclick="window.open('https://steamcommunity.com/id/gamerpablito')">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
+        </image>
+        <animate attributeName="x" attributeType="XML" values="350;0;350;700;350" dur="7" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="500;0;500" dur="3" repeatCount="indefinite" />
+    </svg>
+    <svg width="100" height="100">
+        <image x="15" y="15" xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" onclick="window.open('https://instagram.com/gamer_pablito')">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
+        </image>
+        <animate attributeName="x" attributeType="XML" values="350;0;350;700;350" dur="4" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="500;0;500" dur="6" repeatCount="indefinite" />
+    </svg>
+    <svg width="100" height="100">
+        <image x="15" y="15" xlink:href="https://upload.wikimedia.org/wikipedia/commons/7/7e/Roblox_Logo_2022.jpg" onclick="window.open('https://www.roblox.com/users/2407327943/profile')">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
+        </image>
+        <animate attributeName="x" attributeType="XML" values="350;0;350;700;350" dur="6" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="500;0;500" dur="4" repeatCount="indefinite" />
+    </svg>
 </svg>
