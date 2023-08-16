@@ -19,7 +19,11 @@ td,ol li{
 }
 
 td strong {
-    font-size: 28px;
+    font-size: 32px;
+}
+
+td#price {
+    font-size: 48px;
 }
 
 ol {

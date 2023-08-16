@@ -79,6 +79,14 @@ var authors = [
     {
         name: 'Azuko',
         link: 'https://www.fiverr.com/azuko0'
+    },
+    {
+        name: 'FoxGamin21',
+        link: 'https://twitter.com/foxgamin_'
+    },
+    {
+        name: 'sprinklepuff370',
+        link: 'https://twitter.com/sprinklepuff370'
     }
 ];
 

@@ -83,6 +83,7 @@ for (var i = 0; i < services.length; i++) {
     daTitle.innerText = curService.service;
     daDesc.innerText = curService.desc;
     daPrice.innerText = `$${curService.price}`;
+    daPrice.id = "price";
 
     daService.appendChild(daTitle);
     daElement.appendChild(daService);
