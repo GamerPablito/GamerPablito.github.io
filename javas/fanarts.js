@@ -87,10 +87,26 @@ var authors = [
     {
         name: 'sprinklepuff370',
         link: 'https://twitter.com/sprinklepuff370'
+    },
+    {
+        name: 'conno_conito',
+        link: 'https://www.instagram.com/conno_conito_2.0'
+    },
+    {
+        name: 'AB_XP4',
+        link: 'https://twitter.com/ab_xp4'
+    },
+    {
+        name: 'Mari',
+        link: 'https://twitter.com/Mari_Chan1401'
+    },
+    {
+        name: 'Mari',
+        link: 'https://twitter.com/Mari_Chan1401'
     }
 ];
 
-for (var i = authors.length - 1; i>0; i--) {
+for (var i = authors.length - 1; i > 0; i--) {
     var newLink = document.createElement('a');
     var newImg = document.createElement('img');
 
