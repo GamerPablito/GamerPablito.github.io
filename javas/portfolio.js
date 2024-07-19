@@ -10,9 +10,14 @@ var daSection = document.getElementById('works');
 /** @type {proyect[]} */
 var projects = [
     {
-        title: "GameJolt Client for HaxeFlixel",
+        title: "GameJolt Client for Haxe",
         image: "haxegjclient.png",
         link: "https://github.com/GamerPablito/HaxeGJClient"
+    },
+    {
+        title: "LZ's Rhythm Rivalry",
+        image: "https://images.gamebanana.com/img/ss/mods/649f5274e9d1c.jpg",
+        link: "https://gamebanana.com/mods/453357"
     },
     {
         title: "FNF Weekend Excitin'",
@@ -35,10 +40,11 @@ for (var i = 0; i<projects.length; i++)
     var daUTitle = document.createElement('u');
     daUTitle.innerText = projects[i].title;
     daTitle.appendChild(daUTitle);
-    daLink.appendChild(daTitle);
 
     var daImage = document.createElement('img');
     daImage.src = projects[i].image;
     daLink.appendChild(daImage);
+    
+    daSection.appendChild(daTitle);
     daSection.appendChild(daLink);
 }

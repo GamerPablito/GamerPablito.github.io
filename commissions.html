@@ -1,52 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Commissions</title>
-        <link id="pfp1" rel="head icon"></link>
-        <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="styles/commissions.css"></link>
-        <script src="javas/main.js"></script>
+        <title>Commissions - GamerPablito</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://pbs.twimg.com/media/FreRm5jXoAE4-pQ.jpg" type="image/jpg">
+        <link rel="stylesheet" href="style.css"></link>
     </head>
     <body>
         <center>
-            <h1><u>Commissions</u></h1>
+            <h1>
+                <u>Commissions</u>
+            </h1>
             <p>
-                Here you will found some info about how my commissions work.<br>
-                Prices can be negociated according to the work details and complexity.<br>
-                I only accept payments via Fiverr, Ko-fi or PayPal<br>
-                Discord: gamerpablito<br><br>
-                The aproximated prices for FNF working would be the following:
+                Here you will found some info about how my commissions work.
+                <br>
+                Don't forget to talk to me in Discord about your commission, so we can set details in there.
+                <br>
+                Discord: gamerpablito
             </p>
+            <br>
             <hr>
+            <br>
             <table id="services">
-                <tr>
-                    <th><u>Service</u></th>
-                    <th><u>Description</u></th>
-                    <th><u>Price</u></th>
-                </tr>
+                <h2>
+                    <u>Terms of Service</u>
+                </h2>
+                <ol>
+                    <li>In case you're wondering, I only use Psych Engine when coding for mods.</li>
+                    <li>I'm allowed to deny ANY commission, if I denied your commission before and you keep insisting, things will turn out so bad :\</li>
+                    <li>DON'T be rude if I'm not working as you expect, I'm doing my best to fulfill your expectations.</li>
+                    <li>DON'T push me and/or ask me for updates so frequently. I have more projects, mods, and life stuff I must take care of, too!</li>
+                    <li>NO refunds after the commission has started! So be careful!</li>
+                </ol>
             </table>
-            <br><hr>
-            <h2><u>Terms of Service</u></h2>
-            <ol>
-                <li>In case you're wondering, I only use Psych Engine when coding for mods</li>
-                <li>I'm allowed to deny ANY commission, if I denied your commission before and you keep insisting, things will turn out so bad :\</li>
-                <li>DON'T be rude if I'm not working as you expect, I'm doing my best to fulfill your expectations</li>
-                <li>DON'T push me and/or ask me for updates so frequently; I have more projects, mods, and life stuff I must take care of too</li>
-                <li>
-                    Just want to make this clear, if you want me to do the job before a certain deadline and you got all the assets ready for me to start,
-                    pls use Fiverr (contact me through there), otherwise use Ko-fi or PayPal (contact me via Discord), this in order to avoid future
-                    inconveniences.
-                </li>
-                <li>In case you make the payment BEFORE the service, I can give you refunds if progress is less than 50% of complexion</li>
-                <li>In case you make the payment AFTER the service, there's NO refunds, so make sure if the service I made is enough for you before send the payment</li>
-                <li>
-                    You can also make the payment by parts (you pay me partially when I complete a part of the job, NO refunds) or half-and-half (a half when
-                    starting and a half when finishing, refunds available BEFORE paying the 2nd half)
-                </li>
-            </ol>
-            <br><hr>
-            <footer>Copyright &copy; 2023 GamerPablito</footer>
+            <br>
+            <br>
+            <div>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_cart">
+                    <input type="hidden" name="business" value="K3SZRLA45XYUC">
+                    <input type="hidden" name="display" value="1">
+                    <input
+                        type="image"
+                        src="https://cdn-icons-png.flaticon.com/512/3225/3225209.png"
+                        height="100px"
+                        name="submit"
+                        title="View your Cart"
+                        alt="PayPal View Cart"
+                    >
+                </form>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="NUHMG8F7Q6HHY">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="hidden" name="on0" value="Select a Service">
+                                Select a Service
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="os0">
+                                    <option value="Menu/UI Design">
+                                        Menu/UI Design $20.00 USD
+                                    </option>
+                                    <option value="Gameplay Mechanic">
+                                        Gameplay Mechanic $30.00 USD
+                                    </option>
+                                    <option value="GameJolt Support">
+                                        GameJolt Support $50.00 USD
+                                    </option>
+                                    <option value="Easter Egg">
+                                        Easter Egg $10.00 USD
+                                    </option>
+                                    <option value="Bugfix">
+                                        Bugfix $5.00 USD
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input
+                        type="image"
+                        src="https://lavendercottagecattery.co.uk/wp-content/uploads/2022/10/CITYPNG.COMDownload-PayPal-Yellow-Payment-Button-PNG-2100x770-2.png"
+                        height="100px"
+                        name="submit"
+                        title="Add to Cart"
+                        alt="Agregar al carrito"
+                    >
+                </form>
+            </div>
+            <br>
+            <hr>
+            <footer></footer>
         </center>
     </body>
-    <script src="javas/commissions.js"></script>
+    <script src="javas/main.js"></script>
 </html>

@@ -1,0 +1,89 @@
+* {
+  font-family: "Bahnschrift";
+  text-underline-offset: 4px;
+}
+
+h1 {
+  color: red;
+  font-size: 60px;
+}
+
+h2 {
+  color: deepskyblue;
+  font-size: 40px;
+}
+
+hr {
+  border: 1px solid gray;
+}
+
+p,
+ol,
+form {
+  font-size: 24px;
+  width: 70%;
+}
+
+section img {
+  height: 240px;
+  border: 5px double black;
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-left: 2%;
+  box-shadow: 10px 10px grey;
+}
+
+section img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+input,
+select,
+option,
+td {
+  font-size: 28px;
+}
+
+footer {
+  font-size: 20px;
+}
+
+img#pfp2:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+nav a button {
+  border-radius: 5px;
+  font-size: 28px;
+  padding: 1%;
+  margin-left: 1%;
+}
+
+nav a button:hover {
+  background-color: red;
+  color: white;
+  border-color: navy;
+}
+
+nav,
+div {
+  display: inline-flexbox;
+}
+
+svg image {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transform-origin: center;
+}
+
+svg text {
+  font-size: 48px;
+  fill: white;
+}
+
+svg {
+  background-color: black;
+}

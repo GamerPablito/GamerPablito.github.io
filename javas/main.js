@@ -1,2 +1,2 @@
-// Main Icon Implementation
-document.getElementById('pfp1').href = "https://pbs.twimg.com/media/FreRm5jXoAE4-pQ.jpg";
+// Footer Implementation
+document.querySelector('footer').innerHTML = "Website version: v2024.07.19<br>Copyright &copy; 2023-2024 GamerPablito";
