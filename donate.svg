@@ -3,13 +3,13 @@
         svg svg:hover {cursor: pointer; opacity: 0.7;}
         text {font-family: 'Bahnschrift'; fill: white;}
     </style>
-    <svg width="400" height="70" onclick="(window.open(https://ko-fi.com/J3J0BB99B)">
+    <svg width="400" height="70" onclick="window.open('https://ko-fi.com/J3J0BB99B')">
         <title>Ko-Fi</title>
         <rect width="400" height="70" rx="10" ry="10" fill="darksalmon"/>
         <text x="25" y="45" font-size="36px">Support Me Here</text>
         <image x="320" y="-5" width="80" height="80" xlink:href="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e111774d3a2f67c827cd25_Frame%205.png"/>
     </svg>
-    <svg width="400" height="70" y="80" onclick="window.open(https://paypal.me/gamerpablito)">
+    <svg width="400" height="70" y="80" onclick="window.open('https://paypal.me/gamerpablito')">
         <title>PayPal</title>
         <rect width="400" height="70" rx="10" ry="10" fill="darkblue"/>
         <text x="25" y="45" font-size="36px">Support Me Here</text>
