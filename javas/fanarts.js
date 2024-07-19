@@ -73,8 +73,8 @@ var authors = [
         link: 'https://twitter.com/Mari_Chan1401'
     },
     {
-        name: 'SweetieLandtica',
-        link: 'https://twitter.com/SweetieLandtica'
+        name: 'Galaxy N.G.',
+        link: 'https://twitter.com/gianela_quispe'
     },
     {
         name: 'Azuko',
