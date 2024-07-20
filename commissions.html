@@ -31,63 +31,61 @@
                 </ol>
             </table>
             <br>
-            <div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="business" value="K3SZRLA45XYUC">
-                    <input type="hidden" name="display" value="1">
-                    <input
-                        type="image"
-                        src="https://cdn-icons-png.flaticon.com/512/3225/3225209.png"
-                        height="100px"
-                        name="submit"
-                        title="View your Cart"
-                        alt="PayPal View Cart"
-                    >
-                </form>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="NUHMG8F7Q6HHY">
-                    <table>
-                        <tr>
-                            <td>
-                                <input type="hidden" name="on0" value="Select a Service">
-                                Select a Service
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <select name="os0">
-                                    <option value="Menu/UI Design">
-                                        Menu/UI Design ($20.00)
-                                    </option>
-                                    <option value="Gameplay Mechanic">
-                                        Gameplay Mechanic ($30.00)
-                                    </option>
-                                    <option value="GameJolt Support">
-                                        GameJolt Support ($50.00)
-                                    </option>
-                                    <option value="Easter Egg">
-                                        Easter Egg ($10.00)
-                                    </option>
-                                    <option value="Bugfix">
-                                        Bugfix ($5.00)
-                                    </option>
-                                </select>
-                            </td>
-                        </tr>
-                    </table>
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input
-                        type="image"
-                        src="https://lavendercottagecattery.co.uk/wp-content/uploads/2022/10/CITYPNG.COMDownload-PayPal-Yellow-Payment-Button-PNG-2100x770-2.png"
-                        height="100px"
-                        name="submit"
-                        title="Add to Cart"
-                        alt="Agregar al carrito"
-                    >
-                </form>
-            </div>
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="business" value="K3SZRLA45XYUC">
+                <input type="hidden" name="display" value="1">
+                <input
+                    type="image"
+                    src="https://cdn-icons-png.flaticon.com/512/3225/3225209.png"
+                    height="100px"
+                    name="submit"
+                    title="View your Cart"
+                    alt="PayPal View Cart"
+                >
+            </form>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="NUHMG8F7Q6HHY">
+                <table>
+                    <tr>
+                        <td>
+                            <input type="hidden" name="on0" value="Select a Service">
+                            Select a Service
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="os0" id="items">
+                                <option value="Menu/UI Design">
+                                    Menu/UI Design ($20.00)
+                                </option>
+                                <option value="Gameplay Mechanic">
+                                    Gameplay Mechanic ($30.00)
+                                </option>
+                                <option value="GameJolt Support">
+                                    GameJolt Support ($50.00)
+                                </option>
+                                <option value="Easter Egg">
+                                    Easter Egg ($10.00)
+                                </option>
+                                <option value="Bugfix">
+                                    Bugfix ($5.00)
+                                </option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input
+                    type="image"
+                    src="https://lavendercottagecattery.co.uk/wp-content/uploads/2022/10/CITYPNG.COMDownload-PayPal-Yellow-Payment-Button-PNG-2100x770-2.png"
+                    height="100px"
+                    name="submit"
+                    title="Add to Cart"
+                    alt="Agregar al carrito"
+                >
+            </form>
             <br>
             <hr>
             <footer></footer>

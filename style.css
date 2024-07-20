@@ -18,19 +18,19 @@ hr {
 }
 
 p,
-ol,
-div {
+ol {
   font-size: 24px;
   width: 80%;
-  padding: 1%;
 }
 
 form {
   padding: 1%;
 }
 
-object#media {
-  scale: 0.7;
+@media (max-width: 800px) {
+  object#media {
+    display: none;
+  }
 }
 
 section#images img {
@@ -57,15 +57,23 @@ img#pfp2:hover {
   opacity: 0.6;
 }
 
-input,
-select,
-option,
+footer,
 td {
-  font-size: 28px;
+  font-size: 20px;
 }
 
-footer {
-  font-size: 20px;
+select,
+td {
+  text-align: center;
+}
+
+select,
+option {
+  font-size: 16px;
+}
+
+select#items {
+  width: 250px;
 }
 
 nav a button {
@@ -83,20 +91,4 @@ nav a button:hover {
 
 nav {
   display: inline-flexbox;
-}
-
-svg image {
-  width: 100px;
-  height: 100px;
-  cursor: pointer;
-  transform-origin: center;
-}
-
-svg text {
-  font-size: 48px;
-  fill: white;
-}
-
-svg {
-  background-color: black;
 }
