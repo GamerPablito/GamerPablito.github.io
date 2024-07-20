@@ -20,7 +20,7 @@ var projects = [
         link: "https://gamebanana.com/mods/453357"
     },
     {
-        title: "FNF Weekend Excitin'",
+        title: "Weekend Excitin'",
         image: "https://images.gamebanana.com/img/ss/mods/649f2854abc43.jpg",
         link: "https://gamebanana.com/mods/453296"
     },
