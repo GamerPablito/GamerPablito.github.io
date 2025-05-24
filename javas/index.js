@@ -8,9 +8,10 @@ mainIcon.onclick = (ev) => window.open('https://twitter.com/GamerPablito1');
 
 // Creation of Main Buttons
 
-const buttonNames = ['Portfolio', 'Commissions', 'Fanarts'];
+const buttonNames = ['Portfolio', 'Commissions', 'Fanarts', "Space Trace"];
 var buttonLinks = [];
-for (var i = 0; i<buttonNames.length; i++) {buttonLinks.push(buttonNames[i].toLowerCase());}
+for (var i = 0; i<buttonNames.length-1; i++) {buttonLinks.push(buttonNames[i].toLowerCase());}
+buttonLinks.push("https://gamejolt.com/games/fnf-space-trace/866969");
 var buttonNav = document.getElementById('buttons');
 
 for (var i = 0; i < buttonLinks.length; i++) {
@@ -19,9 +20,16 @@ for (var i = 0; i < buttonLinks.length; i++) {
 
     daButton.type = "button";
     daButton.innerText = buttonNames[i];
+    daAnchor.href = buttonLinks[i];
+    if (i < buttonLinks.length - 1)
+    {
+        daAnchor.href += ".html";
+    }
+    else
+    {
+        daButton.id = "st";
+    }
 
-    daAnchor.href = buttonLinks[i] + ".html";
     daAnchor.appendChild(daButton);
-
     buttonNav.appendChild(daAnchor);
 }

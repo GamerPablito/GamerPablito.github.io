@@ -1,7 +1,16 @@
 <svg width="800" height="600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="background-color:black">
     <style>
-        image {width: 75px; height: 75px; cursor: pointer; transform-origin: center;}
-        text {font-family: 'Bahnschrift'; font-size: 48px; fill: white;}
+        image {
+            width: 75px;
+            height: 75px;
+            cursor: pointer;
+            transform-origin: center;
+        }
+        text {
+            font-family: 'Bahnschrift';
+            font-size: 48px;
+            fill: white;
+        }
     </style>
     <g>
         <text x="280" y="265">Here is my</text>
@@ -16,7 +25,7 @@
         <animate attributeName="y" attributeType="XML" values="0;500;0" dur="7" repeatCount="indefinite" />
     </svg>
     <svg width="100" height="100">
-        <image x="15" y="15" xlink:href="https://s.gjcdn.net/assets/82a38961.png" onclick="window.open('https://gamejolt.com/@GamerPablito')">
+        <image x="15" y="15" xlink:href="https://raw.githubusercontent.com/murikistudio/game-jolt-api/master/addons/gamejolt/icon.png" onclick="window.open('https://gamejolt.com/@GamerPablito')">
             <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
         </image>
         <animate attributeName="x" attributeType="XML" values="350;700;350;0;350" dur="7" repeatCount="indefinite" />
@@ -44,7 +53,7 @@
         <animate attributeName="y" attributeType="XML" values="500;0;500" dur="7" repeatCount="indefinite" />
     </svg>
     <svg width="100" height="100">
-        <image x="15" y="15" xlink:href="https://cdn.freebiesupply.com/images/large/2x/steam-logo-black-transparent.png" onclick="window.open('https://steamcommunity.com/id/gamerpablito')">
+        <image x="15" y="15" xlink:href="https://cdn.freebiesupply.com/images/large/2x/steam-logo-transparent.png" onclick="window.open('https://steamcommunity.com/id/gamerpablito')">
             <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
         </image>
         <animate attributeName="x" attributeType="XML" values="350;0;350;700;350" dur="7" repeatCount="indefinite" />
@@ -58,7 +67,7 @@
         <animate attributeName="y" attributeType="XML" values="500;0;500" dur="6" repeatCount="indefinite" />
     </svg>
     <svg width="100" height="100">
-        <image x="15" y="15" xlink:href="https://upload.wikimedia.org/wikipedia/commons/7/7e/Roblox_Logo_2022.jpg" onclick="window.open('https://www.roblox.com/users/2407327943/profile')">
+        <image x="15" y="15" xlink:href="https://cdn.worldvectorlogo.com/logos/youtube-icon-5.svg" onclick="window.open('https://www.youtube.com/@GamerPablito')">
             <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;360;0" dur="5s" repeatCount="indefinite" />
         </image>
         <animate attributeName="x" attributeType="XML" values="350;0;350;700;350" dur="6" repeatCount="indefinite" />

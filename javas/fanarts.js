@@ -1,5 +1,5 @@
 // Image processing
-var imgSection = document.getElementById('images');
+var imgSection = document.getElementById('fanarts');
 
 /**
  * @typedef {Object} Authors
@@ -29,7 +29,7 @@ var authors = [
         link: 'https://twitter.com/FadicVT'
     },
     {
-        name: 'magicbeautyani',
+        name: 'beautagicannie',
         link: 'https://twitter.com/beautagicannie'
     },
     {
@@ -103,6 +103,14 @@ var authors = [
     {
         name: 'Mari',
         link: 'https://twitter.com/Mari_Chan1401'
+    },
+    {
+        name: 'beautagicannie',
+        link: 'https://twitter.com/beautagicannie'
+    },
+    {
+        name: "Snowfie",
+        link: "https://x.com/WinterStar78"
     }
 ];
 

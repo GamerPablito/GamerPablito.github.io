@@ -20,20 +20,30 @@ hr {
 p,
 ol {
   font-size: 24px;
-  width: 80%;
+  width: 70%;
 }
 
-form {
+p {
+  text-align: center;
+}
+
+ol {
+  text-align: justify;
+}
+
+form,
+select,
+button {
   padding: 1%;
 }
 
 @media (max-width: 1280px) {
   object#media {
-    display: none;
+    scale: 50%;
   }
 }
 
-section#images img {
+section#fanarts img {
   height: 240px;
 }
 
@@ -47,24 +57,23 @@ section img {
   box-shadow: 10px 10px grey;
 }
 
-img:hover {
-  cursor: pointer;
-  opacity: 0.6;
-}
-
-img#pfp2:hover {
-  cursor: pointer;
-  opacity: 0.6;
-}
-
 footer,
+select,
+input,
+textarea,
 td {
   font-size: 20px;
+  text-align: center;
 }
 
-select,
-td {
-  text-align: center;
+img:hover,
+input#paynow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+input#paynow {
+  width: 10%;
 }
 
 select,
@@ -72,21 +81,21 @@ option {
   font-size: 16px;
 }
 
-select#items {
-  width: 250px;
-}
-
-nav a button {
+button {
   border-radius: 5px;
   font-size: 28px;
-  padding: 1%;
   margin-left: 1%;
 }
 
-nav a button:hover {
+button:hover {
   background-color: red;
-  color: white;
   border-color: navy;
+  color: white;
+}
+
+button#st:hover {
+  background-color: blueviolet;
+  border-color: gold;
 }
 
 nav {

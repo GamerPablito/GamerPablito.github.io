@@ -9,9 +9,9 @@
                 <u>Commissions</u>
             </h1>
             <p>
-                Here you will found some info about how my commissions work.
+                Here you will find the terms of service of my commissions.
                 <br>
-                Don't forget to talk to me in Discord about your commission, so we can set details in there.
+                Fill the form below to be taken in count for a commission.
                 <br>
                 Discord: gamerpablito
             </p>
@@ -23,68 +23,90 @@
                     <u>Terms of Service</u>
                 </h2>
                 <ol>
-                    <li>In case you're wondering, I only use Psych Engine when coding for mods.</li>
-                    <li>I'm allowed to deny ANY commission, if I denied your commission before and you keep insisting, things will turn out so bad</li>
+                    <li>In case you're wondering, I usually use Psych Engine when coding for FNF mods. If you need me to work in another engines, please give me some time to figure out how it works first.</li>
+                    <li>I'm in the right to deny ANY commission, if I denied your commission before and you keep insisting, things will turn out so bad!</li>
                     <li>DON'T be rude if I'm not working as you expect, I'm doing my best to fulfill your expectations.</li>
                     <li>DON'T push me and/or ask me for updates so frequently. I have more projects, mods, and life stuff I must take care of, too!</li>
-                    <li>NO refunds after the commission has started! So be careful!</li>
+                    <li>NO refunds after the commission has been taken! However, if I take more than 30 days to complete the task, you're in the right to claim it.</li>
                 </ol>
             </table>
             <br>
-            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <input type="hidden" name="cmd" value="_cart">
-                <input type="hidden" name="business" value="K3SZRLA45XYUC">
-                <input type="hidden" name="display" value="1">
-                <input
-                    type="image"
-                    src="https://cdn-icons-png.flaticon.com/512/3225/3225209.png"
-                    height="100px"
-                    name="submit"
-                    title="View your Cart"
-                    alt="PayPal View Cart"
-                >
-            </form>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="NUHMG8F7Q6HHY">
+            <hr>
+            <br>
+            <h2>
+                <u>Commission Form</u>
+            </h2>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <table>
                     <tr>
                         <td>
-                            <input type="hidden" name="on0" value="Select a Service">
-                            Select a Service
+                            <input type="hidden" name="on0" value="Service Type">
+                            Service Type
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <select name="os0" id="items">
-                                <option value="Menu/UI Design">
-                                    Menu/UI Design ($20.00)
-                                </option>
-                                <option value="Gameplay Mechanic">
-                                    Gameplay Mechanic ($30.00)
-                                </option>
-                                <option value="GameJolt Support">
-                                    GameJolt Support ($50.00)
-                                </option>
-                                <option value="Easter Egg">
-                                    Easter Egg ($10.00)
-                                </option>
-                                <option value="Bugfix">
-                                    Bugfix ($5.00)
-                                </option>
+                            <select name="os0">
+                                <option value="Bugfix">Bugfix $5.00 USD</option>
+                                <option value="State Creation">State Creation $10.00 USD</option>
+                                <option value="UI Design">UI Design $15.00 USD</option>
+                                <option value="In-Game Mechanic">In-Game Mechanic $20.00 USD</option>
+                                <option value="GameJolt Adaptation">GameJolt Adaptation $50.00 USD</option>
                             </select>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <input type="hidden" name="on1" value="Discord Username">
+                            Discord Username
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="os1" maxlength="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="hidden" name="on2" value="Description">
+                            Description
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea name="os2" cols="40" rows="5"></textarea>
+                        </td>
+                    </tr>
                 </table>
-                <input type="hidden" name="currency_code" value="USD">
+                <br>
                 <input
+                    id="paynow"
                     type="image"
-                    src="https://lavendercottagecattery.co.uk/wp-content/uploads/2022/10/CITYPNG.COMDownload-PayPal-Yellow-Payment-Button-PNG-2100x770-2.png"
-                    height="100px"
+                    src="https://a44e103a.delivery.rocketcdn.me/wp-content/uploads/2023/11/pay-now_egqg9e-1024x372.jpg"
                     name="submit"
-                    title="Add to Cart"
-                    alt="Agregar al carrito"
+                    title="Pay with PayPal"
+                    alt="Pay Now"
                 >
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="business" value="K3SZRLA45XYUC">
+                <input type="hidden" name="bn" value="K3SZRLA45XYUC:PP-BuyNowBF_S">
+                <input type="hidden" name="item_name" value="FNF Coding Service">
+                <input type="hidden" name="no_shipping" value="1">
+                <input type="hidden" name="no_note" value="0">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="button_subtype" value="services">
+                <input type="hidden" name="option_select0" value="Bugfix">
+                <input type="hidden" name="option_select1" value="State Creation">
+                <input type="hidden" name="option_select2" value="UI Design">
+                <input type="hidden" name="option_select3" value="In-Game Mechanic">
+                <input type="hidden" name="option_select4" value="GameJolt Adaptation">
+                <input type="hidden" name="option_amount0" value="5.00">
+                <input type="hidden" name="option_amount1" value="10.00">
+                <input type="hidden" name="option_amount2" value="15.00">
+                <input type="hidden" name="option_amount3" value="20.00">
+                <input type="hidden" name="option_amount4" value="50.00">
+                <input type="hidden" name="return" value="https://gamerpablito.github.io/comm_accept.html">
+                <input type="hidden" name="cancel_return" value="https://gamerpablito.github.io/comm_cancel.html">
             </form>
             <br>
             <hr>
