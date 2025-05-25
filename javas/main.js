@@ -6,4 +6,4 @@ head.innerHTML += '<meta name="og:type" content="website">';
 head.innerHTML += '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 head.innerHTML += '<link rel="shortcut icon" href="fanarts/16.png" type="image/jpg">';
 head.innerHTML += '<link rel="stylesheet" href="style.css"></link>';
-document.querySelector('footer').innerHTML = "Website version: v2025.05.24<br>Copyright &copy; 2023-2025 GamerPablito";
+document.querySelector('footer').innerHTML = "Website version: v2025.05.25<br>Copyright &copy; 2023-2025 GamerPablito";
