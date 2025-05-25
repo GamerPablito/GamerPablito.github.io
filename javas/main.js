@@ -1,8 +1,8 @@
 var head = document.querySelector('head');
 head.innerHTML += '<meta charset="UTF-8">';
-head.innerHTML += '<meta property="og:description" content="GamerPablito">';
-head.innerHTML += '<meta property="og:image" content="fanarts/16.png">';
-head.innerHTML += '<meta property="og:type" content="website">';
+head.innerHTML += '<meta name="og:description" content="GamerPablito">';
+head.innerHTML += '<meta name="og:image" content="fanarts/16.png">';
+head.innerHTML += '<meta name="og:type" content="website">';
 head.innerHTML += '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 head.innerHTML += '<link rel="shortcut icon" href="fanarts/16.png" type="image/jpg">';
 head.innerHTML += '<link rel="stylesheet" href="style.css"></link>';
