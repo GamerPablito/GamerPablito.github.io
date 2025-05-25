@@ -1,5 +1,5 @@
 // Main Icon Implementation
-const pfpUrl = "https://pbs.twimg.com/media/FreRm5jXoAE4-pQ.jpg";
+const pfpUrl = "fanarts/16.png";
 var mainIcon = document.getElementById('pfp2');
 mainIcon.src = pfpUrl;
 mainIcon.width = mainIcon.height = 200;

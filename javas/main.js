@@ -1,11 +1,9 @@
 var head = document.querySelector('head');
 head.innerHTML += '<meta charset="UTF-8">';
-head.innerHTML += '<meta property="og:title" content="GamerPablito\'s Website">';
-head.innerHTML += '<meta property="og:description" content="Haxe Developer">';
-head.innerHTML += '<meta property="og:image" content="https://pbs.twimg.com/profile_banners/1372196574055518209/1690366096/1500x500">';
-head.innerHTML += '<meta property="og:url" content="https://gamerpablito.github.io">';
+head.innerHTML += '<meta property="og:description" content="GamerPablito">';
+head.innerHTML += '<meta property="og:image" content="fanarts/16.png">';
 head.innerHTML += '<meta property="og:type" content="website">';
 head.innerHTML += '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
-head.innerHTML += '<link rel="shortcut icon" href="https://pbs.twimg.com/media/FreRm5jXoAE4-pQ.jpg" type="image/jpg">';
+head.innerHTML += '<link rel="shortcut icon" href="fanarts/16.png" type="image/jpg">';
 head.innerHTML += '<link rel="stylesheet" href="style.css"></link>';
 document.querySelector('footer').innerHTML = "Website version: v2025.05.24<br>Copyright &copy; 2023-2025 GamerPablito";
