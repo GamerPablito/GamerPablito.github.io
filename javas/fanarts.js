@@ -111,6 +111,10 @@ var authors = [
     {
         name: "Snowfie",
         link: "https://x.com/WinterStar78"
+    },
+    {
+        name: "VaetikToons",
+        link: "https://x.com/VaetikToons"
     }
 ];
 
@@ -119,7 +123,7 @@ for (var i = authors.length - 1; i > 0; i--) {
     var newImg = document.createElement('img');
 
     newImg.title = "Made by: " + authors[i].name;
-    newImg.src = `fanarts/${i + 1}.png`;
+    newImg.src = `${i + 1}.png`;
     newLink.href = authors[i].link;
     newLink.appendChild(newImg);
     imgSection.appendChild(newLink);

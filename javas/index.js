@@ -9,9 +9,7 @@ mainIcon.onclick = (ev) => window.open('https://twitter.com/GamerPablito1');
 // Creation of Main Buttons
 
 const buttonNames = ['Portfolio', 'Commissions', 'Fanarts', "Space Trace"];
-var buttonLinks = [];
-for (var i = 0; i<buttonNames.length-1; i++) {buttonLinks.push(buttonNames[i].toLowerCase());}
-buttonLinks.push("https://gamejolt.com/games/fnf-space-trace/866969");
+var buttonLinks = ['portfolio.html', 'commissions/index.html', 'fanarts/index.html', "https://gamejolt.com/games/fnf-space-trace/866969"];
 var buttonNav = document.getElementById('buttons');
 
 for (var i = 0; i < buttonLinks.length; i++) {
@@ -21,11 +19,7 @@ for (var i = 0; i < buttonLinks.length; i++) {
     daButton.type = "button";
     daButton.innerText = buttonNames[i];
     daAnchor.href = buttonLinks[i];
-    if (i < buttonLinks.length - 1)
-    {
-        daAnchor.href += ".html";
-    }
-    else
+    if (i == buttonLinks.length - 1)
     {
         daButton.id = "st";
     }
