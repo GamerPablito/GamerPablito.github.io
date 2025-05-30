@@ -39,7 +39,7 @@ button {
 
 @media (max-width: 1280px) {
   object#media {
-    scale: 50%;
+    width: 75%;
   }
 }
 
